@@ -1,0 +1,80 @@
+body {
+    background: #343434;
+    color: #ececec;
+  }
+  A{
+    color: #ececec;
+    text-decoration:none;
+    align: center;
+  }
+  h1{
+    text-align: center;
+  }
+  img.logo{
+    float: left;
+    margin: 10px;
+    width: 100px;
+    padding-top: 40px;
+    margin-left: 100px;
+  
+  }
+  div.head{
+      background: rgb(124, 124, 124);
+    align-content: center;
+    width: 100%;
+    height: 200px;
+  }
+  h1.hea{
+    padding-top: 75px;
+  
+  }
+  nav.navi{
+    margin-top: 10px;
+    padding-top: 10px;
+    padding-left: 45% ;
+    align-content: center;
+  
+    background: rgb(124, 124, 124);
+  
+  
+  }
+  div.navig{
+    width: 100%;
+    height: 20px;
+    padding-bottom: 20px;
+    
+
+  }
+  a.sil{
+    font-size: 30px;
+    margin: center;
+
+  }
+  table{
+    border: 1;
+    color: rgb(0, 0, 0);
+  }
+  footer{
+    font-size: 20px;
+    align-content: center;
+    padding-left: 50%;
+    height: 150px;
+  }
+  div.footer{
+    width: 100%;
+    background: rgb(155, 155, 155);
+}
+  div.table{
+    padding-top: 100px;
+    height: 200px;
+    width: 100%;
+    background: rgb(155, 155, 155);
+}
+  th.tb{
+    background: rgb(163, 255, 150);
+    color: rgb(32, 55, 255);
+  }
+  td.tb{
+    background: rgb(163, 255, 150);
+    color: rgb(32, 55, 255);
+  }

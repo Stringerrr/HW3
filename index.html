@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="style.css">
+	<title> Homework </title>
+</head>
+
+
+<header>
+  <div class="head"> 
+    <img src="png.png" class="logo" align="center">
+    <h1 class="hea"> Домашняя Работа</h1>
+  </div>
+  
+
+
+
+</header>
+
+
+
+<body>
+<div class="navig"  id="#main-aside-wrapper">
+   <nav class="navi">
+    <a href="#table" class="sil">Меню</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="bio.html" class="sil">Био</a> &nbsp;&nbsp;&nbsp;&nbsp;<a href="page.html" class="sil">Страница</a> 
+  </nav>
+  </div>
+
+<ol>
+	<li> <a href="http://example.com">Ссылка на главную страницу сайта example.com</a> </li>
+	<li> <a href="https://example.com">Ссылка на главную страницу сайта example.com с протоколом https</a> </li>
+	<li> <a href="ftp://ftp.example.com/file.txt"> FTP без авторизации </a> </li>
+	<li> <a href="ftp://login:password@ftp.example.com/file.txt"> FTP с авторизацией </a> </li>
+	<li> <a href="http://example.com/page#element_id"> Ссылка на фрагмент страницы некоторого сайта(в данном случае на фрагмент #element на странице page) </a></li>
+	<li> <a href="#frag">Ссылка ведущая на определенный фрагмент сайта </a> </li>
+	<li> <a href="http://example.com?productid=1&utm_source=opera">Ссылка c двумя параметрами в URL(в данном случае 1 параметр перенаправит пользователя на определенный продукт, а 2 параметр указывает на источник, который привел пользователя на сайт) </a> </li>
+
+
+	<p>список ссылок основной навигации сайта с подписями title</p>
+  </li>
+	<li> <a title="Это пустая ссылка">Ссылка без href </a> </li>
+	<li> <a href=" ">Ссылка с пустым href </a> </li>
+	<li> <a href="https://example.com" rel="nofollow">По этой ссылке не будет следовать Яндекс</a> </li>
+	<li><!--<noindex>--> <a href="https://example.com">Эта ссылка не будет индексироваться Яндексом </a> <!--</noindex>--> </li>
+	<li><p>Привет, <a href="https://example.com">это</a> контекстная ссылка </p> </li>
+	<li><a href="https://example.com"><img src="city.jpg" alt="Это ссылка-изображение" height="100px" width="100px"> </a></li>
+
+	<li>
+		<!--Первая карта-->
+    <img src="city2.jpeg" width="211" height="30" alt="Навигация по сайту" usemap="#Navigation">
+	<p><map id="Navigation" name="Navigation">
+    <area shape="rect" coords="0,0,211,20" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRz0EnuOZg3PaYh68H77waNI-Upi6EZFDV7fg&usqp=CAU" alt="1" title="Сложно">
+   </map></p>
+		<!--Вторая карта-->
+   <img src="city3.jpg" height="100" usemap="#nav" alt="2">
+   <p><map id="nav" name="nav">
+   <area shape="circle" coords="50,50,50" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTGZT6lFaEr3R8KP10q3NqOnTvxOPnuCcqcbw&usqp=CAU" alt="2" title="Слишком сложно">
+   </map></p>
+
+	</li>
+ 
+
+	<li> <a href="index.html">Относительная ссылка на страницу в текущем каталоге</a></li>
+	<li><a href="about/about.html">Относительная ссылка на страницу в каталоге about</a></li>
+	<li><a href="about/about.html">Относительная ссылка на страницу в каталоге уровнем выше текущего</a></li>
+	<li><a href="about/secondlvlcatalog/secondlvlpage.html">Относительная ссылка на страницу в каталоге двумя уровнями выше</a> </li>
+	<li><a href="second.html">Сокращенная ссылка на главную</a></li>
+	<li><a href="third.html">сокращенную ссылку на внутреннюю.</a> </li>
+</ol>
+<div class="table">
+  <table border="1" align="center" id="table">
+    <tr>
+      <th colspan="3">Сдвоенная ячейка</th>
+    </tr>
+
+    <tr>
+      <th class="tb">Страна</th>
+      <th>Время</th>
+      <th class="tb">Дата</th>
+    </tr>
+    <tr>
+      <td>Россия</td>
+      <td class="tb">9:00</td>
+      <td>10.12.2022</td>
+    </tr>
+      <tr>
+      <td class="tb">Англия</td>
+      <td>14:00</td>
+      <td class="tb">11.12.2022</td>
+    </tr>
+        <tr>
+      <td>США</td>
+      <td class="tb">1:00</td>
+      <td>12.12.2022</td>
+    </tr>
+        <tr>
+      <td class="tb">Зимбабве</td>
+      <td>2:00</td>
+      <td class="tb">13.12.2022</td>
+    </tr>
+  </table>
+</div>
+
+
+
+
+
+
+
+<form action="/"
+      method="POST">
+
+
+
+	<br/>
+	<h1>Форма</h1>
+	<label>Имя: <input name="field-name" value="Введите имя" /> </label>
+      <br/>
+      <label>Email: <input name="field-email" value="Введите вашу почту" /> </label>
+      <br/>
+      <label>Дата рождения: <input name="field-date" value="2022-09-06" type="date" /> </label>
+      <br/>
+      Пол:<br/>
+       <label><input type="radio" checked="checked" name="radio1" value="Значение1"/> Мужской</label>
+       <label><input type="radio" checked="checked" name="radio1" value="Значение2"/> Женский</label>
+       <br/>
+       Количество конечностей:<br/>
+       <label><input type="radio" checked="checked" name="radio2" value="Значение1"/> Одна</label>
+       <label><input type="radio" checked="checked" name="radio2" value="Значение2"/> Две</label>
+       <label><input type="radio" checked="checked" name="radio2" value="Значение3"/> Три</label>
+       <label><input type="radio" checked="checked" name="radio2" value="Значение4"/> Четыре</label>
+       <br/>
+       <label>
+        Сверхспособности:
+        <br/>
+        <select name="field-choose" multiple="multiple">
+          <option value="Значение1">Бессмертие</option>
+          <option value="Значение2">Прохождение сквозь стены</option>
+          <option value="Значение3">Левитация</option>
+        </select>
+      </label>
+      <br/>
+      Биография<br/>
+      <label>
+      <textarea name="field-bio">Расскажите о себе</textarea>
+ 	  </label>
+ 	  <br/>
+      <label><input type="checkbox" checked="checked"
+        name="check-1" />
+        С контрактом ознакомлен(а)</label>
+        <br/>
+        <input type="submit" value="Отправить" />
+    </form>
+
+<br>
+
+<div class="footer">
+<footer>
+    <br>
+  © Str
+  <br>
+  Подвал
+  <br>
+  Подвал 2
+  <br>
+  Подвал 3
+</footer>
+</div>
+</body>
+</html>
